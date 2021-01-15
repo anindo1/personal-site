@@ -14,7 +14,6 @@ import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
-import Stats from '../pages/Stats';
 
 const pages = [
   {
@@ -23,19 +22,9 @@ const pages = [
     component: Index,
   },
   {
-    route: '/about',
-    heading: 'About Me',
-    component: About,
-  },
-  {
     route: '/projects',
     heading: 'Projects',
     component: Projects,
-  },
-  {
-    route: '/stats',
-    heading: 'Stats',
-    component: Stats,
   },
   {
     route: '/contact',
@@ -43,9 +32,9 @@ const pages = [
     component: Contact,
   },
   {
-    route: '/resume',
-    heading: 'Resume',
-    component: Resume,
+    route: '/stocks',
+    heading: 'Stocks',
+    component: Stocks,
   },
 ];
 
