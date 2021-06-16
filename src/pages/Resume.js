@@ -29,7 +29,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><a href="https://drive.google.com/file/d/1nShjris2TkdGQ5Um4G2hEwiwxhFcWAnx/view">Open resume as a pdf</a></h2>
+          <h2 data-testid="heading"><a href="https://docdro.id/FOisMdc" target="_blank" rel="noreferrer">Open resume as a pdf</a></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
