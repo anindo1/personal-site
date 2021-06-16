@@ -31,8 +31,10 @@ function Stats() {
         </tr>
       </table>
       <p>
-        See current value of coins at <a href="https://coinmarketcap.com/" target="_blank" rel="noreferrer">Coin Marketcap</a>.
-        All coins purchased are in the top 20 marketcap of all crypto, so not much scrolling needed to see my losses :)
+        See current value of coins at 
+        <a href="https://coinmarketcap.com/" target="_blank" rel="noreferrer">Coin Marketcap</a>.
+        All coins purchased are in the top 20 marketcap of all crypto,
+        so not much scrolling needed to see my losses :)
       </p>
     </div>
   );
