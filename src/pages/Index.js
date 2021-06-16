@@ -10,25 +10,24 @@ const Index = () => (
     <article className="post" id="index">
       <h2>About me</h2>
       <p>
-        Hello! I am a software developer who loves developing exciting, innovative projects.
-        I am also really passionate about learning more about the stock market -
-        who doesn&apos;t love the chance to make money! I have
-        even included a section in this website where I show my entire
-        <Link to="/stocks"> stock portfolio</Link> if anyone is curious.
-        In my free time outside of coding and investing, I love playing
-        League of Legends (currently hardstuck diamond 4), watching
-        basketball (Nets fan because of Harden), playing card games like Poker and Blackjack,
-        and playing chess.
-      </p>
-      <p>Feel free to check out my {' '}
-        <Link to="/stocks">stock portfolio</Link> to know all about my current and past positions, as well as how much money I am making! {' '}
-        Or you can check out my <Link to="/projects">projects</Link>, {' '}
-        <a href="https://drive.google.com/file/d/1nShjris2TkdGQ5Um4G2hEwiwxhFcWAnx/view?usp=sharing">resume, </a>
-        or <Link to="/contact">contact</Link> me!
-      </p>
-      <h2>About the website</h2>
-      <p>Welcome to my website that was adapted from <a href="https://mldangelo.github.io/personal-site/">Michael D&apos;Angelo&apos;s website. </a>
-        This is an <a href="ENTER MY GITHUB LINK">open source project</a> that you are free to adapt and use for yourself!
+        <b>Sup Sup!</b>
+        <br />
+        Here are some things about me:
+        <br />
+        <ul>
+          <li>I code cool
+            {' '}<Link to="/Projects">projects </Link>
+          </li>
+          <li>I have a sick food blog where I honestly review restaurants around the globe -
+            <a href="https://flavorchasers.com/">{' '}Flavor Chasers</a>
+          </li>
+          <li>Play League of Legends - username: Anindo, current rank: d3</li>
+          <li>Watch and play basketball - favourite player: Harden, favourite team: Nets</li>
+          <li>I love losing all my software eng income on crypto!
+            If you want to lose money with me, check out my
+            {' '}<Link to="/crypto">current holdings</Link>
+          </li>
+        </ul>
       </p>
     </article>
   </Main>

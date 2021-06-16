@@ -3,9 +3,14 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
+const { PUBLIC_URL } = process.env;
+
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
+      <Link to="/" className="logo">
+        <img src={`${PUBLIC_URL}/images/anindya.jpg`} alt="" />
+      </Link>
       <header>
         <Link to="/"><h2>Anindya De</h2></Link>
       </header>

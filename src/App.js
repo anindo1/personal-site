@@ -11,7 +11,7 @@ const { PUBLIC_URL } = process.env;
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const Projects = lazy(() => import('./pages/Projects'));
-const Stocks = lazy(() => import('./pages/Stocks'));
+const Crypto = lazy(() => import('./pages/Crypto'));
 const Resume = lazy(() => import('./pages/Resume'));
 
 const App = () => (
@@ -20,7 +20,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/projects" component={Projects} />
-        <Route path="/stocks" component={Stocks} />
+        <Route path="/crypto" component={Crypto} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
       </Switch>

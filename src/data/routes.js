@@ -5,8 +5,8 @@ const routes = [
     path: '/',
   },
   {
-    label: 'Stocks',
-    path: '/stocks',
+    label: 'Crypto',
+    path: '/crypto',
   },
   {
     label: 'Projects',
