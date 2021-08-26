@@ -1,6 +1,16 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Lazy Lions Floor Bot',
+    subtitle: 'A discord floor bot for the popular NFT collection: Lazy Lions',
+    link: 'https://github.com/anindo1/Discord-NFT-Floor-Bot',
+    image: '/images/projects/lazy_lions_bot.jpg',
+    intro: 'A discord floor bot for the popular NFT collection: Lazy Lions',
+    desc:
+      'Allows members to use discord commands to view stats on Lazy Lion NFTs including the floor price for different traits. '
+      + 'This project was made in Python, with discord api for the bot and BeautifulSoup to scrape data from opensea',
+  },
+  {
     title: 'Anindo Workout App',
     subtitle: 'A desktop workout application',
     link: 'https://github.com/anindo1/Desktop-Workout-App',
