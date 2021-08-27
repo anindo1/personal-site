@@ -1,7 +1,6 @@
 import React from 'react';
 import { ChartPie, ChartThemeColor } from '@patternfly/react-charts';
-
-const { PUBLIC_URL } = process.env;
+import sample from './wanderers.mp4';
 
 function Stats() {
   const BTC = Math.round((11119 / 18311) * 100);
@@ -37,8 +36,12 @@ function Stats() {
           width={350}
         />
       </div>
-      <b>My NFT <a href="https://opensea.io/Anindo">(opensea)</a> account value: ~0.6 eth = ~ $1929 USD. My favourite NFT collected:</b>
-      <img height="300px" width="auto" src={`${PUBLIC_URL}/images/lion.jpg`} alt="" />
+      <b>My NFT <a href="https://opensea.io/Anindo">(opensea)</a> account value: ~0.9 eth = ~ $2 USD. My favourite NFT collected:</b>
+      <div>
+        <video width="300px" height="auto" className="videoTag" autoPlay loop muted>
+          <source src={sample} type="video/mp4" />
+        </video>
+      </div>
     </div>
   );
 }
